@@ -1,0 +1,11 @@
+{
+  "seed": 20260923,
+  "replicates": 5,
+  "conditions": ["D", "D+C", "D+C-shuffled", "D+C-group"],
+  "models": [{"id":"gpt-6-luna","provider":"responses","endpoint":"https://api.openai.com/v1/responses","keyEnv":"OPENAI_API_KEY","reasoningEffort":"none","maxOutputTokens":64}],
+  "maxCalls": 4400,
+  "timeoutMs": 60000,
+  "promptVariant": "base",
+  "allowRemoteData": false,
+  "budget": {"maxUsd": 1.0, "inputUsdPerMillion": 0.1, "outputUsdPerMillion": 0.5}
+}

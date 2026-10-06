@@ -1,0 +1,26 @@
+{
+  "name": "synthetic-surveys-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "survey": "node dist/src/cli.js",
+    "pilot": "npm run build && node dist/src/pilot.js",
+    "survey:shards": "npm run build && node dist/src/shard-runner.js"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.12",
+    "csv-stringify": "^6.0.0",
+    "jszip": "^3.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.9.9",
+    "typescript": "^5.9.0"
+  }
+}

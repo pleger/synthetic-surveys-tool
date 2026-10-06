@@ -1,0 +1,10 @@
+# Author-created fixture. Not a human survey dataset.
+LANGUAGE: en
+VERSION: example-v1
+Q q_transport | mobility | Which form of transport do you prefer for a short trip?
+A walk | Walk
+A bike | Bicycle
+A bus | Bus
+Q q_schedule | mobility | When do you prefer to travel?
+A am | Morning
+A pm | Afternoon
