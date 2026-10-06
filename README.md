@@ -1,5 +1,7 @@
 # Synthetic Surveys Tool
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A TypeScript command-line tool for generating and auditing synthetic answers to single-choice surveys. It imports a reviewed TXT or DOCX questionnaire, runs mock or API-backed respondent simulations, and evaluates synthetic answers against a separate human reference. The repository contains **software and fictional examples only**.
 
 ## Requirements and quick start
@@ -65,6 +67,10 @@ Do not commit credentials, real respondent profiles, raw API journals, or genera
 - Single-choice items only. Repeated generations do not increase the number of human respondents.
 
 Training-answer margins are a **supervised known-item** condition. They must not be described as zero-shot prediction. See [usage details](tool/docs/USAGE.md) for schemas, safeguards, and recovery behavior.
+
+## License
+
+This project is distributed under the [MIT License](LICENSE).
 
 ## Scope
 

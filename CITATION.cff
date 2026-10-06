@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Synthetic Surveys Tool"
+abstract: "An auditable command-line tool for generating and evaluating synthetic answers to single-choice surveys."
+type: software
+authors:
+  - family-names: Leger
+    given-names: Paul
+version: 0.1.0
+date-released: 2026-10-06
+license: MIT
+repository-code: "https://github.com/pleger/synthetic-surveys-tool"
