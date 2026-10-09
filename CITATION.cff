@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Synthetic Surveys Tool"
+title: "SynthAudit"
 abstract: "An auditable command-line tool for generating and evaluating synthetic answers to single-choice surveys."
 type: software
 authors:

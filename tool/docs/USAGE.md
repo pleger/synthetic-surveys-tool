@@ -1,4 +1,4 @@
-# CLI usage and safeguards
+# SynthAudit CLI usage and safeguards
 
 Run commands from the repository root after `npm ci`. `npm run survey -- --help` prints all CLI subcommands.
 

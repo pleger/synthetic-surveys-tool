@@ -10,7 +10,7 @@ import {
 } from "./schema.js";
 import { evaluate } from "./evaluate.js";
 import { trainMarginalCalibration } from "./calibration.js";
-const help = `Synthetic Surveys Tool - research CLI\n  import --input form.txt|form.docx --out survey.json\n  run --survey survey.json --profiles profiles.json --config run.json --out runs/name [--count 50] [--offset 0] [--split dev|test] [--calibration-truth truth-train.json]\n  evaluate --survey survey.json --input base.jsonl [--input revised.jsonl] --truth truth.json --out metrics.json\nImported TXT/DOCX files require reviewed:true after manual review. Test is never the default.\n`;
+const help = `SynthAudit - research CLI\n  import --input form.txt|form.docx --out survey.json\n  run --survey survey.json --profiles profiles.json --config run.json --out runs/name [--count 50] [--offset 0] [--split dev|test] [--calibration-truth truth-train.json]\n  evaluate --survey survey.json --input base.jsonl [--input revised.jsonl] --truth truth.json --out metrics.json\nImported TXT/DOCX files require reviewed:true after manual review. Test is never the default.\n`;
 async function main() {
   const { positionals, values: v } = parseArgs({
     allowPositionals: true,
