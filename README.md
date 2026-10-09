@@ -101,6 +101,10 @@ Training-answer margins are a **supervised known-item** condition. They must not
 
 SynthAudit supports research audits; it does not validate a synthetic sample by itself or replace human survey data. Public access to a dataset does not automatically authorize transmitting individual records to an external API. Before a live run, review the data provider's terms, institutional or project governance requirements, de-identification, target leakage, and the model provider's data-transfer conditions.
 
+## Creator
+
+SynthAudit was created by [Paul Leger](https://pleger.cl).
+
 ## License
 
 This project is distributed under the [MIT License](LICENSE).

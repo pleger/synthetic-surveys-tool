@@ -6,6 +6,7 @@ type: software
 authors:
   - family-names: Leger
     given-names: Paul
+    website: "https://pleger.cl"
 version: 0.1.0
 date-released: 2026-10-06
 license: MIT
